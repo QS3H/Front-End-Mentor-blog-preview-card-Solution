@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,500..800;1,500..800&display=swap");
+
 :root {
   --font-family: "Figtree", sans-serif;
-  --font-Weight-regular: 500;
-  --font-Weight-bold: 800;
   --font-size: 15px;
+  --font-weight-regular: 500;
+  --font-weight-bold: 800;
 
   /* Primary Colors */
   --primary-color-Yellow: hsl(47, 88%, 63%);
@@ -42,7 +44,7 @@ body {
   height: 522px;
   border-radius: 20px;
   padding: 24px;
-  box-shadow: 10px 10px 0px 0px var(--neutral-color-black);
+  box-shadow: 8px 8px 0px 0px var(--neutral-color-black);
   border: 1px solid var(--neutral-color-black);
 }
 
@@ -63,7 +65,7 @@ body {
 h1 {
   padding-bottom: 12px;
   font-size: 24px;
-  font-weight: var(--font-Weight-bold);
+  font-weight: var(--font-weight-bold);
 }
 h1:hover {
   color: var(--primary-color-Yellow);
@@ -72,7 +74,7 @@ h1:hover {
 }
 
 .category {
-  font-weight: var(--font-Weight-regular);
+  font-weight: var(--font-weight-bold);
   background-color: var(--primary-color-Yellow);
   width: 82px;
   height: 29px;
@@ -85,13 +87,13 @@ h1:hover {
 
 .Publish-date {
   font-size: var(--font-size);
-  font-weight: var(--font-Weight-regular);
+  font-weight: var(--font-weight-regular);
 }
 
 .description {
   color: var(--neutral-color-grey);
   line-height: 1.5rem;
-  font-weight: var(--font-Weight-regular);
+  font-weight: var(--font-weight-regular);
 }
 
 .author {
@@ -104,6 +106,6 @@ h1:hover {
 .author p {
   align-self: center;
   margin-left: 12px;
-  font-weight: var(--font-Weight-bold);
+  font-weight: var(--font-weight-bold);
   font-size: var(--font-size);
 }
