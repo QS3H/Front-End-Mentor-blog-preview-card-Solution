@@ -48,6 +48,17 @@ body {
   border: 1px solid var(--neutral-color-black);
 }
 
+.card:active {
+  cursor: url('./assets/images/cursor.png'), auto;
+  box-shadow: 13px 13px var(--neutral-color-black);
+}
+
+.card:hover {
+  cursor: url('./assets/images/cursor.png'), auto;
+  box-shadow: 13px 13px var(--neutral-color-black);
+  transition: .2s;
+}
+
 .image {
   border-radius: 10px;
   margin-bottom: 24px;
