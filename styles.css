@@ -80,7 +80,6 @@ h1 {
 }
 h1:hover {
   color: var(--primary-color-Yellow);
-  cursor: pointer;
   transition: 0.2s;
 }
 
